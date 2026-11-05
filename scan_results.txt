@@ -1,0 +1,53 @@
+# Nmap 7.993 scan initiated Thu Nov  5 20:42:23 2026 as: nmap -sS -oN scan_results.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: 50:3D:D1:XX:XX:XX (TP-Link Systems)
+
+Nmap scan report for 192.168.0.2
+Host is up (0.0069s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 1A:AA:08:XX:XX:XX (Unknown)
+
+Nmap scan report for 192.168.0.3
+Host is up (0.0061s latency).
+All 1000 scanned ports on 192.168.0.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1C:02:19:XX:XX:XX (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for 192.168.0.6
+Host is up (0.0033s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+1074/tcp open  warmspotMgmt
+1247/tcp open  visionpyramid
+3000/tcp open  ppp
+3001/tcp open  nessus
+7000/tcp open  afs3-fileserver
+MAC Address: 64:E4:A5:XX:XX:XX (LG Electronics)
+
+Nmap scan report for 192.168.0.10
+Host is up (0.0045s latency).
+All 1000 scanned ports on 192.168.0.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1E:AD:68:XX:XX:XX (Unknown)
+
+Nmap scan report for 192.168.0.5
+Host is up (0.00030s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+# Nmap done at Thu Nov  5 20:43:31 2026 -- 256 IP addresses (6 hosts up) scanned in 68.26 seconds

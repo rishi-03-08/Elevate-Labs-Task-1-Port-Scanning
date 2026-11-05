@@ -1,0 +1,57 @@
+# Nmap 7.993 scan initiated Thu Nov  5 20:47:59 2026 as: nmap -sS -sV -oN scan_services.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0030s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        Dropbear sshd 2020.80 (protocol 2.0)
+23/tcp   open  tcpwrapped
+53/tcp   open  domain     dnsmasq 2.85
+80/tcp   open  http
+1900/tcp open  upnp       Portable SDK for UPnP devices 1.6.19 (Linux 4.4.198; UPnP 1.0)
+MAC Address: 50:3D:D1:XX:XX:XX (TP-Link Systems)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:4.4.198
+
+Nmap scan report for 192.168.0.2
+Host is up (0.0057s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+49152/tcp open  tcpwrapped
+62078/tcp open  tcpwrapped
+MAC Address: 1A:AA:08:XX:XX:XX (Unknown)
+
+Nmap scan report for 192.168.0.3
+Host is up (0.010s latency).
+All 1000 scanned ports on 192.168.0.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1C:02:19:XX:XX:XX (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for 192.168.0.6
+Host is up (0.0043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+1074/tcp open  upnp
+1247/tcp open  upnp       LG WebOS upnpd (WebOS 4.1.0; UPnP 1.0)
+3000/tcp open  tcpwrapped
+3001/tcp open  ssl/http   LG smart TV http service
+7000/tcp open  rtsp       AirTunes rtspd 377.40.00
+MAC Address: 64:E4:A5:XX:XX:XX (LG Electronics)
+Service Info: Device: media device
+
+Nmap scan report for 192.168.0.10
+Host is up (0.0059s latency).
+All 1000 scanned ports on 192.168.0.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1E:AD:68:XX:XX:XX (Unknown)
+
+Nmap scan report for 192.168.0.5
+Host is up (0.00076s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov  5 20:49:52 2026 -- 256 IP addresses (6 hosts up) scanned in 113.22 seconds
